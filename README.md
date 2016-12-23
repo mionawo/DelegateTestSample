@@ -1,6 +1,5 @@
-#　swift、Delegateのサンプルです。
-ちょっとトチって、
-
+swift、Delegateのサンプルです。
 - masterブランチ：Delegateありサンプル
 - delegatenoブランチ：Delegateなしサンプル
-ですw
+です。（・ω・）
+作成環境は、xcode8.1,swift3です。

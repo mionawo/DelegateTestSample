@@ -14,10 +14,8 @@
 		68028BC71E0CC6AF00D0FA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68028BC51E0CC6AF00D0FA2D /* LaunchScreen.storyboard */; };
 		68028BD21E0CC6AF00D0FA2D /* delegatetestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68028BD11E0CC6AF00D0FA2D /* delegatetestTests.swift */; };
 		68028BDD1E0CC6AF00D0FA2D /* delegatetestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68028BDC1E0CC6AF00D0FA2D /* delegatetestUITests.swift */; };
-		68028BEF1E0CC7F600D0FA2D /* DelegateTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68028BEE1E0CC7F600D0FA2D /* DelegateTableView.swift */; };
 		68028BF21E0CC9CB00D0FA2D /* DelegateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68028BF01E0CC9CB00D0FA2D /* DelegateTableViewCell.swift */; };
 		68028BF31E0CC9CB00D0FA2D /* DelegateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68028BF11E0CC9CB00D0FA2D /* DelegateTableViewCell.xib */; };
-		68028BF71E0CCE7E00D0FA2D /* testDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68028BF61E0CCE7E00D0FA2D /* testDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +49,8 @@
 		68028BD81E0CC6AF00D0FA2D /* delegatetestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegatetestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68028BDC1E0CC6AF00D0FA2D /* delegatetestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delegatetestUITests.swift; sourceTree = "<group>"; };
 		68028BDE1E0CC6AF00D0FA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68028BEE1E0CC7F600D0FA2D /* DelegateTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateTableView.swift; sourceTree = "<group>"; };
 		68028BF01E0CC9CB00D0FA2D /* DelegateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateTableViewCell.swift; sourceTree = "<group>"; };
 		68028BF11E0CC9CB00D0FA2D /* DelegateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelegateTableViewCell.xib; sourceTree = "<group>"; };
-		68028BF61E0CCE7E00D0FA2D /* testDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				68028BBC1E0CC6AF00D0FA2D /* AppDelegate.swift */,
-				68028BF61E0CCE7E00D0FA2D /* testDelegate.swift */,
 				68028BBE1E0CC6AF00D0FA2D /* ViewController.swift */,
 				68028BC01E0CC6AF00D0FA2D /* Main.storyboard */,
-				68028BEE1E0CC7F600D0FA2D /* DelegateTableView.swift */,
 				68028BF01E0CC9CB00D0FA2D /* DelegateTableViewCell.swift */,
 				68028BF11E0CC9CB00D0FA2D /* DelegateTableViewCell.xib */,
 				68028BC31E0CC6AF00D0FA2D /* Assets.xcassets */,
@@ -274,8 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				68028BF21E0CC9CB00D0FA2D /* DelegateTableViewCell.swift in Sources */,
-				68028BEF1E0CC7F600D0FA2D /* DelegateTableView.swift in Sources */,
-				68028BF71E0CCE7E00D0FA2D /* testDelegate.swift in Sources */,
 				68028BBF1E0CC6AF00D0FA2D /* ViewController.swift in Sources */,
 				68028BBD1E0CC6AF00D0FA2D /* AppDelegate.swift in Sources */,
 			);
@@ -524,6 +516,7 @@
 				68028BE31E0CC6AF00D0FA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68028BE41E0CC6AF00D0FA2D /* Build configuration list for PBXNativeTarget "delegatetestTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +525,7 @@
 				68028BE61E0CC6AF00D0FA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68028BE71E0CC6AF00D0FA2D /* Build configuration list for PBXNativeTarget "delegatetestUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +534,7 @@
 				68028BE91E0CC6AF00D0FA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
